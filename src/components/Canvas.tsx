@@ -1,7 +1,7 @@
   import React, { useRef, useState } from "react";
   import { toPng } from "html-to-image";
   import { saveAs } from "file-saver";
-  import bgimg from "../assets/BG.png";
+  import bgimg from "../../public/BG.png";
   import { FaCameraRetro } from 'react-icons/fa'; // ใช้ไอคอนจาก FontAwesome
 
   interface Player {
