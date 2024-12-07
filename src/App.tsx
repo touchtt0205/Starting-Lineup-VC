@@ -10,7 +10,7 @@ import Canvas from "./components/Canvas";
 const App: React.FC = () => {
 
   return (
-    <Router basename="/Starting-Lineup-VC"> 
+    <Router > 
       <div>
         <Routes>
           <Route path="/" element={<Canvas />} />
